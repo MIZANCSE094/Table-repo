@@ -1,0 +1,46 @@
+table{
+    border:2px solid red;
+    height: 80px;
+    width: 100%;
+} 
+    tr :hover{
+    border: -1px solid yellow;
+    color: yellow;
+    background-color: blue;
+    border-radius: 15%;
+}
+tr:nth-child(odd ){
+    background-color: gray;
+}
+tr:nth-child(even ){
+    background-color: brown;
+}
+
+
+tr {
+    color : gray;
+    background-color: blanchedalmond;
+    padding: 15px;
+    text-align: center;
+}
+th{
+ background-color: blue;
+}
+.tableone{
+color:red;
+border: 2px solid blanchedalmond;
+background-color: chartreuse;
+font-size: 30px;
+width: 100px;
+border-radius: 20px;
+}
+   p:hover 
+   {
+    color:black;
+    font-style:initial;
+    font-family: fantasy;
+    font-weight: 300;
+    background-color: rgb(164, 21, 221);
+    text-align: center;
+    margin: 0 auto;
+   } 
